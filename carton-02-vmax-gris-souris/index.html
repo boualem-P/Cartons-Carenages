@@ -1,1 +1,31 @@
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>carton-02 Vmax Gris Souris
+</title>
+<style>
+  body { margin: 0; background: #111; font-family: Arial, sans-serif; color: white; text-align: center; }
+  h1 { padding: 20px; font-size: 1.2em; color: #ccc; }
+  .carousel { position: relative; width: 100%; max-width: 500px; margin: auto; }
+  .slides { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 10px; padding: 10px; }
+  .slides img { scroll-snap-align: start; width: 100%; flex-shrink: 0; border-radius: 10px; object-fit: cover; max-height: 400px; }
+  .counter { margin-top: 10px; color: #aaa; font-size: 0.9em; padding-bottom: 20px; }
+</style>
+</head>
+<body>
+<h1>📦 carton-02 Vmax Gris Souris</h1>
+<div class="carousel">
+  <div class="slides" id="slides">
+    <img src="1.jpg" alt="Photo 1">
+    <img src="2.jpg" alt="Photo 2">
+    <img src="3.jpg" alt="Photo 3">
+    <img src="4.jpg" alt="Photo 4">
+    <img src="5.jpg" alt="Photo 5">
+  </div>
+  <p class="counter">⬅️ Glisse pour voir les photos ➡️</p>
+</div>
+</body>
+</html>
